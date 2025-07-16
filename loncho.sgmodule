@@ -1,9 +1,0 @@
-#!name=美图秀秀 VIP
-#!desc=Unlock VIP quyền hạn Meitu
-
-[MITM]
-hostname= %APPEND%
-api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com, tool.xiuxiu.meitu.com, api-sub.meitu.com, api.data.meitu.com, api.account.meitu.com, account.meitu.com, adui.tg.meitu.com, xximg1.meitudata.com, api.revenuecat.com
-
-[Script]
-MeituVIP= type=http-response,pattern=^https:\/\/(api-sub|api|h5|tool)\.xiuxiu\.meitu\.com\/.*|api\.revenuecat\.com\/v1\/subscribers,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/aleotoidayy/test/main/lochon.js
