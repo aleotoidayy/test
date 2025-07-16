@@ -1,8 +1,0 @@
-#!name= Meitu
-#!desc= Tets
-
-[MITM]
-hostname= %APPEND% api-sub.meitu.com, api.xiuxiu.meitu.com
-
-[Script]
-Meitu= type=http-response,pattern=^https?:\/\/api-sub\.meitu\.com\/v2\/user\/vip_info_by_group\.json,requires-body=1,script-path=https://raw.githubusercontent.com/aleotoidayy/test/main/test.js
