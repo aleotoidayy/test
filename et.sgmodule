@@ -1,0 +1,9 @@
+#!name= pam lam
+#!desc= lam nham
+
+[MITM]
+hostname = %APPEND% api.revenuecat.com, api.rc-backup.com
+
+[Script]
+RevenueCatVip = type=http-response, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts$|subscribers\/[^/]+$), requires-body=true, max-size=-1, timeout=60, script-path=https://raw.githubusercontent.com/aleotoidayy/test/main/het.js
+RevenueCatDeleteHeader = type=http-request, pattern=^https:\/\/api\.(revenuecat|rc-backup)\.com\/.+\/(receipts|subscribers), timeout=60, script-path=https://raw.githubusercontent.com/aleotoidayy/test/main/et.js
