@@ -31,7 +31,7 @@ skip-proxy = *.local, *.crashlytics.com
 tun-excluded-routes = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12
 
 [MITM]
-hostname= %APPEND% api.revenuecat.com, buy.itunes.apple.com, us-central1-alight-creative.cloudfunctions.net, api.alohaprofile.com, photos.adobe.io, api.revenuecat.com, api-mobile.soundcloud.com, spclient.wg.spotify.com, *spclient.spotify.com, redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com, nicegram.cloud, api.revenuecat.com, buy.itunes.apple.com, api.picsart.com, ap*.intsig.net, premium*.truecaller.com, api-sub.meitu.com, mobile-api.adguard.org, iap.etm.tech, api.calm.com
+hostname= %APPEND% api.revenuecat.com, buy.itunes.apple.com, us-central1-alight-creative.cloudfunctions.net, api.alohaprofile.com, photos.adobe.io, api.revenuecat.com, api-mobile.soundcloud.com, spclient.wg.spotify.com, *spclient.spotify.com, redirector*.googlevideo.com,*.googlevideo.com,www.youtube.com,s.youtube.com,youtubei.googleapis.com, nicegram.cloud, api.revenuecat.com, buy.itunes.apple.com, api.picsart.com, ap*.intsig.net, premium*.truecaller.com, api-sub.meitu.com, mobile-api.adguard.org, iap.etm.tech, api.calm.com, api.rc-backup.com
 
 [Script]
 
