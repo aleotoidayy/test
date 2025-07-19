@@ -1,9 +1,0 @@
-#!name= tests
-#!desc= lest
-
-[MITM]
-hostname = ios-api-cf.duolingo.com, ios-api-2.duolingo.com
-
-[Script]
-Doulingo = type=http-response, pattern=^https:\/\/ios-api.*duolingo\.com\/.*users\/show.*, script-path=https://github.com/quocchienn/unlock/raw/pro/Duolingo_Max.js, requires-body=true, timeout=10
-Doulingoo = type=http-request, pattern=^https:\/\/ios-api.*duolingo\.com\/.*users\/show.*, script-path=https://github.com/quocchienn/unlock/raw/pro/deleteheader.js, requires-body=false, timeout=10
