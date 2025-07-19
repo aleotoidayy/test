@@ -1,0 +1,7 @@
+#!name=BilibiliIntl 1080P Unlock
+#!desc=Unlock 1080p+, fake VIP for biliintl
+#!author=MayMay
+[Script]
+http-response ^https?:\/\/(passport|app)\.biliintl\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://raw.githubusercontent.com/deezertidal/private/master/js-backup/Script/bilibili_json.js
+[MITM]
+hostname=passport.biliintl.com,app.biliintl.com
